@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Easy Track</title>
+<link rel="icon" type="image/png" href="easy.png"/>
+
+<!--Side Navigation Bar-->
+	<style>
+	#mySidenav a
+		{
+		position: absolute;
+		left: +40px;
+		transition: 0.3s;
+		padding: 15px;
+		width: 185px;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		border-radius: 0 10px 10px 0;
+		text-align: center;
+		}
+
+	#mySidenav a:hover
+	{
+    left: 0;
+	}
+
+	#admin
+	{
+    top: 95px;
+    background-color: #bc477b;
+	}
+
+	#supervisor
+	{
+    top: 215px;
+    background-color: #ad1357;
+	}
+
+	#track
+	{
+    top: 335px;
+    background-color: #880e4f;
+	}
+
+	#report
+	{
+    top: 455px;
+    background-color: #560027
+	}
+	#request 
+	{
+    top: 575px;
+    background-color: #880e4f;
+	}
+
+
+</style>
+
+
+</head>
+	<body>
+		<style>
+		body
+			{ background: url("Track2.jpg");
+			background-size:cover;
+			background-repeat: no-repeat;
+			padding-top: 0px;
+			}
+		</style>
+  
+  <div id="mySidenav" class="sidenav">
+  <a href="adminlogin.jsp" id="admin">ADMINISTRATOR LOGIN</a>
+  <a href="supervisorlogin.jsp" id="supervisor">SUPERVISOR LOGIN</a>
+  <a href="#" id="track">TRACK</a>
+  <a href="#" id="report">REPORT</a>
+  <a href="#" id="request">REQUEST</a>
+  </div>
+
+	<div style="margin-left: 80px;"></div>
+  
+  
+</body>
+</html>
