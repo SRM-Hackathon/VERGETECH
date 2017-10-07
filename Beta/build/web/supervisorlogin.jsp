@@ -127,12 +127,13 @@ $('.message a').click(function(){
 });
 </script>
 
-<h1 align="center">SUPERVISOR LOGIN<h1>
+
 
 <div class="login-page">
   <div class="form">
     
     <form class="login-form" action="Controller" method="POST">
+        <h1 align="center">SUPERVISOR LOGIN</h1>
 	  <input type="text" name="txtusername" placeholder="Username"/>
       <input type="password" name="txtpassword" placeholder="Password"/>
       <button input type="submit" value="Log In">Login</button>

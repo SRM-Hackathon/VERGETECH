@@ -1,24 +1,21 @@
-
-
-
 <!DOCTYPE HTML>
 <html>
 <title>Administrator Profile</title>
 <link rel="icon" type="image/png" href="easy.png"/>
 <form id="contact" action="" method="post" align="center">
     
-<p align="center">Enter Task Details</p> 
+<p align="center">Task Details</p> 
 <fieldset><div class="container">
-<input type="text" name=""  tabindex="1" required>
+<input type="text" name=""  placeholder="Enter Task Details Here"  tabindex="1" required>
 <body>
 
-<p align="center" Task name:<input type="text" name="Task name"  tabindex="2" required>
+<p align="center" Task name:<input type="text" name="Task name"  placeholder="Enter Task Name" tabindex="2" required>
 <br>
-Village:<input type="text" name="Village name"  tabindex="3" required>
+Village:<input type="text" name="Village name"  placeholder="Enter Village Name Here" tabindex="3" required>
 <br>
-Location:<input type="text"  name="location"  tabindex="4" required>
+Location:<input type="text"  name="location"  placeholder="Enter Location Here " tabindex="4" required>
 <br>
-Area:<input type="text" name="area"  tabindex="5" required>
+Area:<input type="text" name="area" placeholder="Enter Area Name Here" tabindex="5" required>
 <br>
  Start date: <span style="display:none;" id="fsCalendar46032799ImageUrl">https://realdata.formstack.com/forms/images/2/calendar.png</span
     <input data-skip-validation="" data-date-format="M d, Y" type="hidden" id="field46032799Format" name="field46032799Format" value="MDY">
@@ -165,16 +162,16 @@ Ending date:
 </body> 
  
     <br>
-      Supervisor Email Address:<input type="email" name="email" placeholder=" email" tabindex="6" required>
+      Supervisor Email Address:<input type="email" name="email" placeholder="Enter E-mail Address" tabindex="6" required>
     
     <fieldset><div class="container">  
     <br>
  
-     Supervisor Id: <input type="tel" name="tel" tabindex="7" required >
+     Supervisor Id: <input type="tel" name="tel" placeholder="Enter Supervisor id"  tabindex="7" required>
     <fieldset><div class="container">
 
     <br>
-      Supervisor Password: <input type="url" name="url" tabindex="8" required>
+      Supervisor Password: <input type="url" name="url"  placeholder="Enter Password"  tabindex="8" required>
      <fieldset><div class="container">
 
 <br>     
@@ -184,7 +181,12 @@ Ending date:
     <br>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     <br>
-    
+    <br>
+    </form>
+<form method="link" action="AdminLogout.jsp">
+    <button  align="right" name="logout" type="submit" id="logout">Log Out</button>
+     
+    <br>
   </form>
 
   <style>

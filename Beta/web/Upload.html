@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="POST" action="FileUploadServlet" enctype="multipart/form-data" >
+            <table>
+            <tr>
+             <td width="57%"><select name="mydropdown">
+<option value="Default">Location</option>
+<option value="Bangalore">Bangalore</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chennai">Chennai</option>
+<option value="Delhi">Delhi</option>
+<option value="Indore">Indore</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Pune">Pune</option>
+<option value="Veraval">Veraval</option>
+                 </select></td><br><br>
+            <tr>
+                <td><input type="text" name="txtsarpanchname" placeholder="Add Sarpanch Name"></td>
+            </tr>
+            <tr>
+                <td><textarea name="txtcomment">  </textarea></td>
+            </tr>
+            <tr> 
+                <td> Place:    <input type="text" name="Place">
+        <br>
+            <input type="file" name="Photo">
+            <input type="submit" value="submit"></td>
+            </tr>
+            
+            </table>
+        </form>
+    </body>
+</html>

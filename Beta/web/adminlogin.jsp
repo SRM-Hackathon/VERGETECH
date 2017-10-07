@@ -130,11 +130,13 @@ body {
    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 	});
 	</script>
-
+        
+        
 <div class="login-page">
   <div class="form">
     
     <form class="login-form" action="AdminController" method="POST">
+        <h1 align="center" >ADMINISTRATOR LOGIN </h1>
       <input type="text" name="txtusername" placeholder="Enter Email Id"/>
       <input type="password" name="txtpassword" placeholder="Enter Password"/>
       <button input type="submit" value="Log In">Login</button>
